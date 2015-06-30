@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bigfish_test2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/bigfish_test2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\工程文件\MyProjects\c\bigfish\v2.0\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/bigfish_test2.pdb" /debug /machine:I386 /out:"Debug/bigfish_test2.exe" /pdbtype:sept 
+".\Debug\bigfish_test2.obj"
+".\Debug\bigfish_test2Doc.obj"
+".\Debug\bigfish_test2View.obj"
+".\Debug\fish.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\bigfish_test2.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE6.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+bigfish_test2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

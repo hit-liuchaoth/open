@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Scroll_test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Scroll_test.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\工程文件\MyProjects\c\sql&chat&test\对基友聊天增加功能（木马）\Scroll_testDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D.tmp" 
+Creating command line "link.exe libmysql.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Scroll_test.pdb" /machine:I386 /out:"Release/Scroll_test.exe"  ".\Release\Scroll_test.obj" ".\Release\Scroll_testDlg.obj" ".\Release\StdAfx.obj" ".\Release\Scroll_test.res" "
+<h3>Output Window</h3>
+Compiling...
+Scroll_testDlg.cpp
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+Scroll_test.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

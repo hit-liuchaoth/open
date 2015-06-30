@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Screenshot_test2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Screenshot_test2.res" /d "_DEBUG" "D:\Program Files\Microsoft Visual Studio\MyProjects\Screenshot_test2\Screenshot_test2.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Screenshot_test2.pdb" /debug /machine:I386 /out:"Debug/Screenshot_test2.exe" /pdbtype:sept 
+".\Debug\Screenshot_test2.obj"
+".\Debug\Screenshot_test2Dlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Screenshot_test2.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Screenshot_test2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

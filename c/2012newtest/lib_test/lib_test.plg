@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lib_test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/lib_test.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\工程文件\MyProjects\c\2012newtest\lib_test\lib_test.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\lib_test.lib"  ".\Debug\lib_test.obj" "
+<h3>Output Window</h3>
+Compiling...
+lib_test.cpp
+d:\工程文件\myprojects\c\2012newtest\lib_test\lib_test.h(11) : error C2433: 'a' : 'virtual' not permitted on data declarations
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+lib_test.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

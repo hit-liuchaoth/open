@@ -1,0 +1,38 @@
+void CNew3Dlg::OnButton1() 
+{
+	// TODO: Add your control notification handler code here
+
+	SetTimer(3,3,0);
+	InvalidateRect(NULL,FALSE);
+	
+
+}
+
+void CNew3Dlg::OnTimer(UINT nIDEvent) 
+{
+	// TODO: Add your message handler code here and/or call default
+	CWnd * x=(CWnd *) GetDlgItem(IDC_STATIC);
+	CDC * pDC =x->GetDC() ;
+	CFont font; 
+	font.CreateFont( 
+	24,                        // nHeight 
+	12,                        // nWidth 
+	0,                        // nEscapement 
+	0,                        // nOrientation 
+	FW_NORMAL,                // nWeight
+	0,                    // bItalic 
+	0,                    // bUnderline 
+	0,                        // cStrikeOut 
+	ANSI_CHARSET,              // nCharSet 
+	OUT_DEFAULT_PRECIS,        // nOutPrecision 
+	CLIP_DEFAULT_PRECIS,      // nClipPrecision 
+	DEFAULT_QUALITY,          // nQuality 
+	DEFAULT_PITCH | FF_SWISS, 
+	"ºÚÌå"                    // nPitchAndFamily 
+	);              
+	//CFont* def_font = 
+	pDC->SelectObject(&font); 
+	UpdateData(TRUE);
+	pDC->TextOut(0,0,m_data1);
+	CDialog::OnTimer(nIDEvent);
+}
